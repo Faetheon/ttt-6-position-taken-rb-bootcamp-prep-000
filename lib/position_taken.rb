@@ -3,6 +3,7 @@ def pos_avail (arr, index)
     return false
   elsif index === nil
     return false
-  end
+  else
+    return true
   end
 end
