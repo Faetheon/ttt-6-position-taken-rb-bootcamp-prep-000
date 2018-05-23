@@ -1,7 +1,7 @@
 def pos_avail (arr, index)
-  if arr[index] === "" || arr[index] === " "
+  if index == nil
     return false
-  if 
+  if arr[index] === "" || arr[index] === " "
     return false
   else
     return true
