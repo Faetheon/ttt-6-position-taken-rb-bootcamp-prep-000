@@ -1,4 +1,4 @@
-def position_taken (arr, index)
+def pos_avail (arr, index)
   if arr[index] === "" || arr[index] === " "
     return false
   end
