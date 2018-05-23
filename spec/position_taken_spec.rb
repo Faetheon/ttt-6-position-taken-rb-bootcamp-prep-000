@@ -12,7 +12,7 @@ describe '#position_taken? in lib/position_taken.rb' do
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     index = 0
 
-    expect(position_taken?(board, index)).to be(false)
+    expect(pos_avail(board, index)).to be(false)
   end
 
    it 'returns false if the board has an empty string "" in the index' do
